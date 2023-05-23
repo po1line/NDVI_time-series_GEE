@@ -10,11 +10,4 @@ The following rules can be suggested:
  
 The code is presented in Jupyter Notebook. It works using GEE Python API, which requires authentication. The detailed guideline can be found [here](https://developers.google.com/earth-engine/tutorials/community/intro-to-python-api).
 
-Regional MODIS time series could be helpful support for the large scale vegetation monitoring and mapping.
-In this analysis pilot regions in the Northern Hemisphere representing mostly boreal landscapes were used. Main task was to collect and analyse daily NDVI data to select relevant time periods witin each season -- summer, spring, autumn and winter for the next steps of satellite images processig in tasks based on time-series. 
-The following rules can be suggested:
-1) summer season can be represented by week  with maximum NDVI values +- 2 weeks;
-2) autumn and spring period of decrease and increase of vegetation productivity  processes can be represented by NDVI values between 0.2 and 0.5 within corresponding seasons
-3) for winter it is mostly ok to work with time periods from the middle of January to the end of February.
 
-The code is presented in Jupyter Notebook. It works using GEE Python API, which requires authen 
